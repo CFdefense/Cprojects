@@ -1,11 +1,11 @@
 //This File will server as the main hub of the program
-#include "FPSConsole.cpp"
-#include "Levels.cpp"
-int levelChoice = 0;
+#include "..\header\FPSConsole.h"
+#include "..\header\Levels.h"
+int levelChoice = 1;
+
+//works as intended
 int main()
 {
-    int result = play(pickLevel(levelChoice));
-    return result;
+    play(pickLevel(levelChoice));
+    return 0;
 }
-
-

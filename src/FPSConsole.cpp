@@ -6,6 +6,7 @@
 #include <vector>
 #include <algorithm>
 
+
 using namespace std;
 
 //! Initialized Variables
@@ -50,6 +51,7 @@ int play(wstring map)
 	{
 		if(inMenu == false)
 			{
+		
 				//INBOUNDS CHECKER
 				if (characterXpos < 0 || characterXpos >= mapWidth || characterYpos < 0 || characterYpos >= mapHeight)
 						{	
@@ -268,8 +270,3 @@ int play(wstring map)
 	}//while
 }//play
 
-int main()
-{
-	play();
-	return 0;
-}

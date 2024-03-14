@@ -2,17 +2,12 @@
 #include <string>
 using namespace std;
 
-int main()
-{
-    return 0;
-}
-
 wstring pickLevel(int levelNumber)
 {
     wstring map;
     switch(levelNumber)
     {
-        case '1': 
+        case 1: 
             //! Initialize and Create Modifiable wide string map
             map += L".################";
             map += L".#..............#";

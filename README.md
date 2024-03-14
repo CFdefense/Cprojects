@@ -8,6 +8,7 @@ I got the inspiration and followed the guide of [Javidx9's](https://www.youtube.
 Following the walkthrough I plan to progress the project into an actual shooter in which the user progresses through some levels, shooting and killing enemies to reach the end. 
 
 ## TODO
+--Sucessfully split the program--
 1. Implement Static/Dynamic Enemies 
 2. Shooting UI, function and collision detection
 3. Start menu
